@@ -1,0 +1,19 @@
+#include <SFML/Graphics.hpp>
+#include "ParticleGravity.hpp"
+
+int main() {
+    sf::RenderWindow w(sf::VideoMode(1600, 1000), "Abstract Boredom");
+    w.setFramerateLimit(60);
+
+    int const numg = 4;
+    int const nump = 10000;
+
+    GravitySource source[numg];
+    Particle particle[nump];
+
+    while (w.isOpen()) {
+        // ... (rest of your main.cpp code)
+    }
+
+    return 0;
+}
